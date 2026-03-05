@@ -1,0 +1,6 @@
+fastapi>=0.128.7
+google-generativeai>=0.8.6
+langchain-google-genai>=4.2.0
+langchain-groq>=1.1.2
+langchain-ollama>=1.0.1
+uvicorn>=0.40.0
