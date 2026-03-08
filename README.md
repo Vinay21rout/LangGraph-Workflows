@@ -20,6 +20,19 @@ A collection of LangGraph workflow implementations demonstrating various graph-b
   - Routes to positive/negative response handlers
   - Includes diagnosis for negative feedback
 
+### Iterative Workflows
+- **Multiple Evaluation LLM Response** - Iterative response improvement
+  - Generates initial response
+  - Evaluates quality
+  - Optimizes based on feedback
+  - Repeats until approved or max iterations reached
+
+### Chatbot
+- **Basic Chatbot** - Simple conversational AI using LangGraph
+  - Message state management
+  - LLM integration with Groq/Ollama
+  - Stateful conversation flow
+
 ## 🚀 Setup
 
 1. Clone the repository
@@ -52,6 +65,8 @@ Each workflow demonstrates different LangGraph capabilities:
 - Conditional edges
 - Parallel execution
 - Node composition
+- Iterative loops
+- Message handling
 
 ## 🛠️ Technologies
 
